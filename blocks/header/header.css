@@ -1,0 +1,15 @@
+@import url(./__logo/header__logo.css);
+@import url(./__lang/header__lang.css);
+
+.header {
+    border: 0.5px solid forestgreen;
+    width: 90%;
+    max-height: 756px;
+    background: #2A2C2F;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
