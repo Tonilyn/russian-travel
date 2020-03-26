@@ -1,0 +1,15 @@
+@import url(./__image/lead__image.css);
+@import url(./__caption/lead__caption.css);
+
+.lead {
+    border: 0.5px solid royalblue;
+    width: 75%;
+    margin: auto;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FFFFFF;
+    /* margin-top: calc(100px - 52px); */
+    /* background-color: #2A2C2F; */
+}
