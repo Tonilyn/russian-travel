@@ -1,7 +1,6 @@
-.logo {
-    border: 0.5px solid forestgreen;
+.header__logo {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    justify-self: flex-start;
+    justify-self: center;
 }
