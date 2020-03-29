@@ -2,7 +2,7 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
-    width: 75%;
+    width: 65%;
     margin: auto;
     padding-top: 3rem;
     display: flex;

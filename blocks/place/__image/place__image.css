@@ -1,0 +1,4 @@
+.place__image {
+    border: 0.3px solid red;
+    grid-area: photo;
+}

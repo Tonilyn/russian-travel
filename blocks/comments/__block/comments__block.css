@@ -1,0 +1,9 @@
+.comments__block {
+    width: 100%;
+    margin: auto;
+    justify-items: center;
+    display: flex;
+    max-width: 60%;
+    flex-direction: column;
+    justify-content: center;
+  }

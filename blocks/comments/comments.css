@@ -1,0 +1,16 @@
+@import url(./__block/comments__block.css);
+@import url(./__img/comments__img.css);
+@import url(./__container/comments__container.css);
+@import url(./__text/comments__text.css);
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 102px;
+    width: 100%;
+    max-width: 1184px;
+    margin: auto;
+    color: #FFFFFF;
+}

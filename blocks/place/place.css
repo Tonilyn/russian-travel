@@ -1,0 +1,17 @@
+@import url(./__image/place__image.css);
+@import url(./__paragraph.css/place__paragraph.css);
+@import url(./__website/place__website.css);
+@import url(./__title/place__title.css);
+
+.place {
+    border: 0.3px solid red;
+    display: grid;
+    margin-top: 72px;
+    color: #FFFFFF;
+    /* grid-template-columns: minmax(min-content, 1fr) 1fr; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+      "title url"
+      "photo content";
+    column-gap: 40px; /*  попробовать calc для адаптива */
+}
