@@ -1,8 +1,10 @@
 .place__title {
-    border: 0.3px solid red;
+    /* border: 0.3px solid red; */
+    max-width: 460px;
     grid-area: title;
-    margin-top: 0;
-    align-self: start;
+    margin: 0;
+    align-self: end;
     font-weight: 900;
     font-size: 72px;
-}
+    text-align: left;
+} 
