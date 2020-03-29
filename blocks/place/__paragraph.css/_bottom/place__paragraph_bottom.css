@@ -1,9 +1,0 @@
-.place__paragraph_bottom {
-    align-self: center; 
-    /*
-    grid-column: 2;
-    grid-row: 2; */
-    grid-area: content;
-    padding: 0;
-    margin: 0;
-}

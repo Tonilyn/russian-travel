@@ -1,0 +1,8 @@
+.place__paragraph-bottom {
+    align-self: center; 
+    /*
+    grid-column: 2;
+    grid-row: 2; */
+    padding: 0;
+    margin: 0;
+}

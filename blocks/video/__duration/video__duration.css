@@ -1,0 +1,9 @@
+.video__duration{
+    margin: 28% 0 0 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    z-index: 2;
+}

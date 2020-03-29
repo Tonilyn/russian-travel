@@ -1,0 +1,16 @@
+@import url(./__container/video__container.css);
+@import url(./__duration/video__duration.css);
+@import url(./__icon/video__icon.css);
+@import url(./__item-img/video__item-img.css);
+@import url(./__item/video__item.css);
+@import url(./__subtitle/video__subtitle.css);
+@import url(./__title/video__title.css);
+
+.video {
+    border: 0.5px solid red;
+    max-width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin: auto;
+}

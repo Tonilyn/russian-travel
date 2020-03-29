@@ -1,0 +1,8 @@
+.video__item-img {
+    position: absolute;
+    max-width: 583px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.7;
+}

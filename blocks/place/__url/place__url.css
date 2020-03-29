@@ -4,6 +4,12 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-    text-decoration-line: underline;
+    text-decoration: none;
     color: #ffffff;
+    transition: opacity 0.5s ease-out;
+}
+
+.place__url:hover {
+    text-decoration: underline;
+    opacity: 0.3;
 }
