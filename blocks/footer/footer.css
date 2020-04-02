@@ -2,12 +2,17 @@
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
 
-.footer{
+.footer {
+    background-color: #2A2C2F;
+    max-width: 1184px;
+    min-width: 320px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-content: center;
     margin: 0 auto;
     padding-bottom: 48px;
-    max-width: 1184px;
+    color: #fff;
 }
 
 @media screen and (max-width : 1024px){
