@@ -1,9 +1,22 @@
-.video__container {
+/* .video__container {
     border: 0.5px solid red;
-    width: 100%;
+    width: 100%; 
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    color: #ffffff;
+} */
+
+@import url(../__item/video__item.css);
+
+.video__container {
+    max-width: 100%; 
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 18px;
     justify-content: space-between;
     color: #ffffff;
 }

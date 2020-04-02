@@ -1,0 +1,13 @@
+.comment__img {
+    width: 97px;
+    height: 97px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 42px;
+    border-radius: 50%;
+}
+
+.comment__img:hover {  
+    transition: .2s;     
+    opacity: .5;
+}

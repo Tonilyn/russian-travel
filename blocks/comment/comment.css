@@ -1,0 +1,9 @@
+@import url(./__img/comment__img.css);
+@import url(./__author/comment__author.css);
+@import url(./__quote/comment__quote.css);
+
+.comment {
+   max-width: 382px;
+   margin-top: 0;
+   margin-left: 0;
+}

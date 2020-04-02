@@ -1,8 +1,24 @@
-.video__subtitle{
+@import url(./_position/video__subtitle_position_left.css);
+@import url(./_position/video__subtitle_position_right.css);
+
+/* .video__subtitle{
     margin: 3% 0 0 30px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 15px;
     z-index: 2;
+} */
+
+.video__subtitle {
+    margin: 18px 30px 30px;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    z-index: 10;
+    grid-column: 1/1;
+    grid-row: 4;
+    align-self: center;
 }

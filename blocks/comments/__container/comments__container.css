@@ -1,5 +1,17 @@
-.comments__container {
+/* .comments__container {
     width: 100%;
-    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 72px;
+} */
+
+.comments__container{
+    margin-top: 72px;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 382px);
+    grid-column-gap: 19px;
 }

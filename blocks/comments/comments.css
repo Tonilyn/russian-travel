@@ -1,16 +1,35 @@
-@import url(./__block/comments__block.css);
-@import url(./__img/comments__img.css);
 @import url(./__container/comments__container.css);
-@import url(./__text/comments__text.css);
+@import url(../comment/comment.css);
 
 .comments {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 102px;
-    width: 85%;
     max-width: 1184px;
-    margin: auto;
+    margin: 128px auto;
     color: #FFFFFF;
+}
+
+@media screen and (max-width : 1024px){
+    .comments{
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width : 768px){
+    .comments{
+        max-width:660px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 375px){
+    .comments{
+        max-width:343px;
+    }
+}
+
+@media screen and (max-width : 320px){
+    .comments{
+        max-width:288px;
+    }
 }

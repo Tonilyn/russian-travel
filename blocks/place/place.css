@@ -8,6 +8,7 @@
 /* гриды */
 
 .place { 
+  width: 100%;
     display: grid;
     margin-top: 0;
     margin-bottom: 4.5rem;
@@ -17,7 +18,7 @@
     grid-template-areas: 
       "title url"
       "photo content";
-    grid-gap: 40px 60px;
+    grid-gap: 60px 40px;
 } 
 
 /* flex box */

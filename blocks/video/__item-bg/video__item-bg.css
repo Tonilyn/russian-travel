@@ -1,0 +1,15 @@
+.video__item-bg {
+    width: 100%;
+    height: 323px;
+    z-index: 0;
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 4;
+    align-self: stretch;
+    object-fit: cover;
+    opacity: .7;
+}
+
+.video__item-bg:hover {  
+    transition: .2s;     
+    opacity: .5;
+}

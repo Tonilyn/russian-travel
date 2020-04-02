@@ -1,5 +1,27 @@
-.video__item {
+@import url(../__icon/video__icon.css);
+@import url(../__title/video__title.css);
+@import url(../__subtitle/video__subtitle.css);
+@import url(../__duration/video__duration.css);
+@import url(../__item-bg/video__item-bg.css);
+
+/* .video__item {
+    border: 0.5px solid red;
+    width: 100%;
+    padding-bottom: 30px;
     position: relative;
-    display: flex;
-    flex-direction: column;
+    background-color: #202020;
+    background-size: cover;
+    overflow: hidden;
+} */
+
+.video__item {
+    max-width: 583px;
+    position: relative;
+    background-size: cover;
+    text-decoration: none;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr calc(100% - 2fr) 1fr;
+    grid-template-rows: repeat(3, 1fr) min-content;
+    border-radius: 1%;
 }
