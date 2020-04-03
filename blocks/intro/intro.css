@@ -13,3 +13,38 @@
     flex-direction: column;
     justify-content: flex-start;
 }
+
+@media screen and (max-width : 1255px) {
+    .intro {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width : 1030px) {
+    .intro {
+        max-width: 928px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width : 980px) {
+    .intro {
+        max-width: 95%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width : 771px) {
+    .intro {
+        max-width: 720px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width : 735px) {
+    .intro {
+        max-width: 95%;
+        margin: auto;
+    }
+}

@@ -4,3 +4,16 @@
     background-position: center;
     justify-self: center;
 }
+
+@media screen and (max-width : 380px){
+    .header__logo {
+        max-width: 142px;
+        max-height: 42px;
+    }
+}
+
+@media screen and (max-width : 456px) {
+    .header__logo {
+        max-width: 161px;
+    }
+}

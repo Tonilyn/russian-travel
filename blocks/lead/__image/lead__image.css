@@ -7,3 +7,31 @@
     transition: .2s;     
     opacity: .5;
 }
+
+@media screen and (max-width: 1026.5px) {
+    .lead__image {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .lead__image {
+        max-width:768px;
+        min-height:420px;
+    }
+}
+
+@media screen and (max-width: 377px) {
+    .lead__image {
+        max-width: 375px;
+        min-height: 211px;
+        margin-top: 31px;
+    }
+}
+
+@media screen and (max-width : 322px) {
+    .lead__image {
+        max-width: 320px;
+        min-height: 211px;
+    }
+}

@@ -1,7 +1,7 @@
 .header__lang-link {
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: normal;
     align-self: center;
     transition: opacity 0.5s ease-out;
@@ -9,9 +9,16 @@
 
 .header__lang-link:first-of-type {
     margin-right: 18px;
+    text-decoration: underline;
 }
 
 .header__lang-link:hover {
-    text-decoration: underline;
     opacity: 0.3;
+}
+
+@media screen and (max-width : 377px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 17px;
+    }
 }

@@ -14,3 +14,33 @@
     /* margin-top: calc(100px - 52px); */
     /* background-color: #2A2C2F; */
 }
+
+@media screen and (max-width : 1282px) {
+    .lead {
+        max-width: 985px;
+    }
+}
+
+@media screen and (max-width : 1028px) {
+    .lead {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width : 770px) {
+    .lead {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width : 391px) {
+    .lead {
+        max-width: 391px;
+    }
+}
+
+@media screen and (max-width : 325px) {
+    .lead {
+        max-width: 100%;
+    }
+}

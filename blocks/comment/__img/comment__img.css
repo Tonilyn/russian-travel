@@ -5,11 +5,13 @@
     margin-left: 0;
     margin-bottom: 42px;
     border-radius: 50%;
+    transition: box-shadow 0.3s ease;
 }
 
 .comment__img:hover {  
     transition: .2s;     
     opacity: .5;
+    box-shadow: 0 0 15px #82b74b;
 }
 
 @media screen and (max-width : 321px) {

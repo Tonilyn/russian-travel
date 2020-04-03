@@ -4,3 +4,27 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
+
+@media screen and (max-width : 775px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width : 690px) {
+  .lead__caption {
+    margin-left: 22px;
+  }
+}
+
+@media screen and (max-width : 390px) {
+  .lead__caption {
+    margin-left: 18px;
+  }
+}
+
+@media screen and (max-width : 378px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
+}
