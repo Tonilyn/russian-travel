@@ -4,3 +4,9 @@
     grid-row: 1; */
     align-self: end;
 }
+
+@media screen and (max-width: 620px) {
+    .place__website {
+        display: none;
+    }
+}

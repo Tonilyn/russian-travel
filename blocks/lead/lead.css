@@ -33,6 +33,12 @@
     }
 }
 
+@media screen and (max-width : 710px) {
+    .lead__title {
+        max-width: 100%;
+    }
+}
+
 @media screen and (max-width : 391px) {
     .lead {
         max-width: 391px;

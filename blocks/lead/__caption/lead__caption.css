@@ -5,26 +5,40 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width : 775px) {
+@media screen and (max-width : 947px) {
   .lead__caption {
     margin-left: 24px;
   }
 }
 
+@media screen and (max-width : 775px) {
+  .lead__caption {
+    margin-left: 24px;
+    /* margin-bottom: 80px; */
+  }
+}
+
 @media screen and (max-width : 690px) {
   .lead__caption {
-    margin-left: 22px;
+    margin-left: 23px;
   }
 }
 
 @media screen and (max-width : 390px) {
   .lead__caption {
-    margin-left: 18px;
+    /* margin-left: 18px;
+    margin-top: 8px;
+    margin-bottom: 64px; */
+    margin: 8px 18px 64px;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
   }
 }
 
-@media screen and (max-width : 378px) {
+@media screen and (max-width : 390px) {
   .lead__caption {
     margin-left: 16px;
+    margin-bottom: 0;
   }
 }

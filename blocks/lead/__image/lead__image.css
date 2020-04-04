@@ -1,6 +1,7 @@
 .lead__image {
     width: 100%;
     margin-top: 4.8rem;
+    object-fit: contain;
 }
 
 .lead__image:hover {  
@@ -8,30 +9,21 @@
     opacity: .5;
 }
 
-@media screen and (max-width: 1026.5px) {
+@media screen and (max-width: 1024px){
     .lead__image {
-        max-width: 928px;
+        margin-top: 65px;
+        max-width: 100%    
     }
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 769px){
     .lead__image {
-        max-width:768px;
-        min-height:420px;
+        max-width: 100%    
     }
 }
 
-@media screen and (max-width: 377px) {
+@media screen and (min-width: 0px) and (max-width: 658px) {
     .lead__image {
-        max-width: 375px;
-        min-height: 211px;
-        margin-top: 31px;
-    }
-}
-
-@media screen and (max-width : 322px) {
-    .lead__image {
-        max-width: 320px;
-        min-height: 211px;
+        margin-top: 0;
     }
 }

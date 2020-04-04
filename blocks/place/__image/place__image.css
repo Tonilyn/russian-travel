@@ -1,10 +1,30 @@
 .place__image {
     grid-area: photo;
-    width: 100%;
+    /* max-width: 460px; */
     object-fit: cover;
 }
 
 .place__image:hover {  
     transition: .2s;     
     opacity: .5;
+}
+
+@media screen and (max-width: 1026px) {
+    .place__image {
+        max-width: 440px;
+    }
+}
+
+@media screen and (min-width : 625px) and (max-width : 769px) {
+    .place__image {
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .place__image {
+        max-width: 100%;
+        margin: 0 0 24px;
+        object-fit: contain;
+    }
 }

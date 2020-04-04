@@ -1,7 +1,7 @@
 .lead__subtitle {
     max-width: 583px;
     margin: auto;
-    padding-top: 3rem;
+    margin-top: 48px;
     color: #FFFFFF;
     font-size: 30px;
     line-height: 36px;
@@ -9,22 +9,53 @@
     text-align: center;
 }
 
-@media screen and (max-width : 768px) {
-    .lead__subtitle {
-        max-width:550px;
+/* @media screen and (max-width : 770px){
+    .lead__subtitle{
+        max-width: 664px;
     }
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 375px){
     .lead__subtitle {
+        max-width: 343px;
         font-size: 16px;
         line-height: 23px;
-        max-width: 375px;
+        text-align: center;
+        margin: 0 auto 32px;
+        padding: auto;
     }
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width : 320px){
     .lead__subtitle {
         max-width: 288px;
+        margin-bottom: 31px;
+    }
+} */
+
+@media screen and (max-width : 692px) {
+    .lead__subtitle {
+        margin-top: 48px;
+        margin-bottom: 0;
+        max-width: 90%;
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@media (min-width: 658px) and (max-width : 691.5px) {
+    .lead__subtitle {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 0px) and (max-width : 657px) {
+    .lead__subtitle {
+        /* ( Минимальный размер шрифта / Контрольную точку ) ✕ 100 */
+        /* ( 16px / 320px ) ✕ 100 = vw */
+        margin-top: 8px;
+        margin-bottom: 32px;
+        font-size: 5vw;
+        line-height: 6vw;
     }
 }
