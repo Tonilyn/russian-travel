@@ -13,10 +13,39 @@
 .video__container {
     max-width: 100%; 
     margin: 70px auto;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 18px 1fr;
     grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 18px;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     color: #ffffff;
+}.video__container > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}.video__container > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+}
+
+@media screen and (max-width: 660px) {
+    .video__container {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        -ms-grid-rows: 1fr 8px 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 8px;
+    }
+    .video__container > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .video__container > *:nth-child(2) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
 }

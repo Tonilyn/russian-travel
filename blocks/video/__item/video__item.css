@@ -25,3 +25,21 @@
     grid-template-rows: repeat(3, 1fr) min-content;
     border-radius: 1%;
 }
+
+@media screen and (max-width: 1190px) {
+    .video__item {
+        max-width: 482px;
+    }
+  }
+  
+  @media screen and (max-width: 1030px) {
+    .video__item {
+        max-width: 456px;
+        height: 288px;
+    }
+  }
+  
+  @media screen and (max-width: 780px) {
+    .video__item {
+    }
+  }

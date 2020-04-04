@@ -13,3 +13,24 @@
     transition: .2s;     
     opacity: .5;
 }
+
+@media screen and (max-width: 1190px) {
+    .video__item-bg {
+        max-width: 482px;
+        border-radius: 1%;
+    }
+  }
+  
+  @media screen and (max-width: 1030px) {
+    .video__item-bg {
+        max-width: 456px;
+        height: 288px;
+        border-radius: 1%;
+    }
+  }
+  
+  @media screen and (max-width: 780px) {
+    .video__item-bg {
+        border-radius: 1%;
+    }
+  }

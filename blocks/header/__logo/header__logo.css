@@ -2,7 +2,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    justify-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
 }
 
 @media screen and (max-width : 380px){

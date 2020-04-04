@@ -14,3 +14,21 @@
   /*  align-content: space-between; */
     margin: auto;
 }
+
+@media screen and (max-width: 1190px) {
+  .video {
+      max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .video {
+      max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .video {
+      max-width: 720px;
+  }
+}

@@ -7,9 +7,16 @@
     max-width: 984px;
     margin: 0 auto;
     padding-top: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     color: #FFFFFF;
     /* margin-top: calc(100px - 52px); */
     /* background-color: #2A2C2F; */
