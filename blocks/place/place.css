@@ -45,7 +45,7 @@
       max-width: 100%;
       -ms-grid-columns: calc((100% - 94%) / 2) 0 1fr 0 calc((100% - 94%) / 2);
       grid-template-columns: calc((100% - 94%) / 2) 1fr calc((100% - 94%) / 2);
-      -ms-grid-rows: ;
+      -ms-grid-rows: repeat(auto-fit, 1fr);
       grid-template-rows: repeat(auto-fit, 1fr);
           grid-template-areas: 
       ". title ."

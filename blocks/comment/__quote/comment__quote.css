@@ -8,9 +8,16 @@
 }
 
 
-@media screen and (max-width : 768px){
+@media screen and (max-width : 780px){
     .comment__quote{
         text-align: center;
+        font-size: 16px;
+        line-height: 23px;
+        max-width: 100%;
+    }
+
+    .comment__quote:last-of-type {
+        margin-bottom: 0;
     }
 }
 

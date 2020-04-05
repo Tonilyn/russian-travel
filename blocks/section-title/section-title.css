@@ -9,6 +9,12 @@
     text-align: center;
 }
 
+@media screen and (max-width: 1025px) {
+    .section-title {
+        max-width: 90%;
+    }
+}
+
 @media screen and (max-width: 916px) {
     .section-title {
         max-width: 89.7%;
@@ -27,6 +33,12 @@
     .section-title {
         font-size: 32px;
         line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .section-title:last-of-type {
+        max-width: 98%;
     }
 }
 

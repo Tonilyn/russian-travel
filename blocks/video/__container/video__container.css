@@ -32,6 +32,12 @@
     -ms-grid-column: 3;
 }
 
+@media screen and (max-width: 1025px) {
+    .video__container{
+        margin-bottom: 0;
+    }
+}
+
 @media screen and (max-width: 955px) {
     .video__container {
       max-width: 98%;
