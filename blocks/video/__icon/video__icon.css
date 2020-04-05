@@ -20,3 +20,10 @@
 .video__icon:hover {      
     opacity: .5;
 }
+
+@media screen and (max-width: 780px) {
+  .video__icon {
+    top: 25px;
+    left: 24.63px;
+  }
+}

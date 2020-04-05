@@ -34,6 +34,10 @@
   .place {
     grid-column-gap: 28px;
   }
+
+  .place:last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 620px) {

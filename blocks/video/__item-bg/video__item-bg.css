@@ -32,5 +32,7 @@
   @media screen and (max-width: 780px) {
     .video__item-bg {
         border-radius: 1%;
+        max-width: 352px;
+        max-height: 200px;
     }
   }

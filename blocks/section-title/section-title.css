@@ -1,5 +1,5 @@
 .section-title {
-    width: 75%;
+    max-width: 75%;
     margin: auto;
     color: #FFFFFF;
     font-size: 72px;
@@ -7,4 +7,32 @@
     font-weight: 900;
     font-style: normal;
     text-align: center;
+}
+
+@media screen and (max-width: 916px) {
+    .section-title {
+        max-width: 89.7%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .section-title {
+        max-width: 75%;
+        font-size: 42px;
+        line-height: 46px;  
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .section-title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .section-title {
+        max-width: 90%;
+        margin: 0 auto;
+    }
 }
