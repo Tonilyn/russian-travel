@@ -2,38 +2,42 @@
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 400;
-    src: url("./Inter-Regular.woff") format("woff");
-    src: url("./fonts/Inter-Regular.woff2") format("woff2");
-    src: url("./fonts/Inter-Regular.otf") format("otf");
-    src: url("./fonts/Inter-Regular.ttf") format("ttf");
+  font-display: swap;
+    src: url("Inter-Regular.woff") format("woff");
+    src: url("Inter-Regular.woff2") format("woff2");
+    src: url("Inter-Regular.otf") format("otf");
+    src: url("Inter-Regular.ttf") format("ttf");
 }
 
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 500;
-    src: url("./fonts/Inter-Medium.woff") format("woff");
-    src: url("./fonts/Inter-Medium.woff2") format("woff2");
-    src: url("./fonts/Inter-Medium.otf") format("otf");
-    src: url("./fonts/Inter-Medium.ttf") format("ttf");
+  font-display: swap;
+    src: url("Inter-Medium.woff") format("woff");
+    src: url("Inter-Medium.woff2") format("woff2");
+    src: url("Inter-Medium.otf") format("otf");
+    src: url("Inter-Medium.ttf") format("ttf");
 }
 
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 700;
-  src: url("./fonts/Inter-SemiBold.woff") format("woff");
-  src: url("./fonts/Inter-SemiBold.woff2") format("woff2");
-  src: url("./fonts/Inter-SemiBold.otf") format("otf");
-  src: url("./fonts/Inter-SemiBold.ttf") format("ttf");
+  font-display: swap;
+  src: url("Inter-SemiBold.woff") format("woff");
+  src: url("Inter-SemiBold.woff2") format("woff2");
+  src: url("Inter-SemiBold.otf") format("otf");
+  src: url("Inter-SemiBold.ttf") format("ttf");
 }
 
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 900;
-  src: url("./fonts/Inter-Black.woff") format("woff");
-  src: url("./fonts/Inter-Black.woff2") format("woff2");
-  src: url("./fonts/Inter-Black.otf") format("otf");
-  src: url("./fonts/Inter-Black.ttf") format("ttf");
+  font-display: swap;
+  src: url("Inter-Black.woff") format("woff");
+  src: url("Inter-Black.woff2") format("woff2");
+  src: url("Inter-Black.otf") format("otf");
+  src: url("Inter-Black.ttf") format("ttf");
 }
