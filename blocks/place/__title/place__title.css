@@ -1,9 +1,9 @@
 .place__title {
-    /* border: 0.3px solid red; */
     max-width: 457px;
     grid-area: title;
     margin: 0;
     align-self: end;
+    font-family: 'Inter';
     font-weight: 900;
     font-size: 72px;
     text-align: left;
