@@ -40,7 +40,7 @@
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 625px) {
   .place {
       max-width: 100%;
       -ms-grid-columns: calc((100% - 94%) / 2) 0 1fr 0 calc((100% - 94%) / 2);

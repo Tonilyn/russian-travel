@@ -34,6 +34,10 @@
         line-height: 23px;
         margin-bottom: 30px;
     }
+
+    .section-subtitle:last-of-type {
+        max-width: 95%;
+    }
 }
 
 @media screen and (max-width: 405px) {

@@ -9,30 +9,6 @@
     text-align: center;
 }
 
-/* @media screen and (max-width : 770px){
-    .lead__subtitle{
-        max-width: 664px;
-    }
-}
-
-@media screen and (max-width : 375px){
-    .lead__subtitle {
-        max-width: 343px;
-        font-size: 16px;
-        line-height: 23px;
-        text-align: center;
-        margin: 0 auto 32px;
-        padding: auto;
-    }
-}
-
-@media screen and (max-width : 320px){
-    .lead__subtitle {
-        max-width: 288px;
-        margin-bottom: 31px;
-    }
-} */
-
 @media screen and (max-width : 692px) {
     .lead__subtitle {
         margin-top: 48px;

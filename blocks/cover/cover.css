@@ -6,8 +6,13 @@
     max-width: 1184px;
     margin: 102px auto 160px;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-decoration: none;
     background-size: cover;
     background-image: url("../../images/cover.jpg");
@@ -25,6 +30,8 @@
 	bottom: 0;
     z-index: 0;
     background: rgba(0, 0, 0, 0.3);  
+    -webkit-transition: all 0.2s linear;  
+    -o-transition: all 0.2s linear;  
     transition: all 0.2s linear;
 }
 
@@ -47,6 +54,12 @@
         background-position: center;
         background-repeat: no-repeat;
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .cover {
+        margin-bottom: 64px;
     }
 }
 

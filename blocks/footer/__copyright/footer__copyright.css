@@ -1,0 +1,32 @@
+.footer__copyright {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin: 0;
+}
+
+@media screen and (max-width : 770px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width : 667px) {
+    .footer__copyright {
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width : 375px) {
+    .footer__copyright{
+        text-align: left;
+        margin-left: 16px;
+        margin-top: 48px;
+        margin-bottom: 0;
+    }
+}
