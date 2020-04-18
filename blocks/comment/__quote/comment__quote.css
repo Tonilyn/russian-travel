@@ -32,6 +32,8 @@
     .comment__quote {
         text-align: left;
         margin-top: 0;
+        -ms-grid-row: 3;
+        -ms-grid-row-span: 1;
         grid-row: 3 / 4;
     }
 }
@@ -40,6 +42,8 @@
     .comment__quote {
         text-align: left;
         margin-top: 0;
+        -ms-grid-row: 3;
+        -ms-grid-row-span: 1;
         grid-row: 3 / 4;
     }
 }    

@@ -5,13 +5,20 @@
     margin-left: 0;
     margin-bottom: 42px;
     border-radius: 50%;
+    -webkit-transition: -webkit-box-shadow 0.3s ease;
+    transition: -webkit-box-shadow 0.3s ease;
+    -o-transition: box-shadow 0.3s ease;
     transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
 }
 
 .comment__img:hover {  
+    -webkit-transition: .2s;  
+    -o-transition: .2s;  
     transition: .2s;     
     opacity: .5;
-    box-shadow: 0 0 15px #82b74b;
+    -webkit-box-shadow: 0 0 15px #82b74b;
+            box-shadow: 0 0 15px #82b74b;
 }
 
 @media screen and (max-width: 780px) {
@@ -22,7 +29,10 @@
 
 @media screen and (max-width : 321px) {
     .comment__img {
-        justify-self: center;
+        -ms-grid-column-align: center;
+            justify-self: center;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
         grid-row: 1 / 2;
         margin: 0 auto;
     }

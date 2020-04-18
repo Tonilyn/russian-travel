@@ -1,11 +1,15 @@
 .place__url {
-    align-self: end;
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
     text-decoration: underline;
     color: #ffffff;
+    -webkit-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
     transition: opacity 0.5s ease-out;
 }
 

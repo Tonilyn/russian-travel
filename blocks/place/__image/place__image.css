@@ -1,10 +1,12 @@
 .place__image {
     grid-area: photo;
-    /* max-width: 460px; */
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 .place__image:hover {  
+    -webkit-transition: .2s;  
+    -o-transition: .2s;  
     transition: .2s;     
     opacity: .5;
 }
@@ -25,6 +27,7 @@
     .place__image {
         max-width: 100%;
         margin: 0 0 24px;
-        object-fit: contain;
+        -o-object-fit: contain;
+           object-fit: contain;
     }
 }

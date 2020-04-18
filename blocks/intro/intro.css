@@ -9,8 +9,13 @@
     max-width: 683px;
     margin-top: 70px;
     margin-left: calc((100% - 984px) / 2);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 @media screen and (max-width: 1028px) {
@@ -24,9 +29,16 @@
         margin: auto;
         margin-top: 70px;
         max-width: 94%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: stretch;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: stretch;
+            -ms-flex-pack: stretch;
+                justify-content: stretch;
     }
 }
 
