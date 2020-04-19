@@ -4,16 +4,6 @@
 @import url(../__duration/video__duration.css);
 @import url(../__item-bg/video__item-bg.css);
 
-/* .video__item {
-    border: 0.5px solid red;
-    width: 100%;
-    padding-bottom: 30px;
-    position: relative;
-    background-color: #202020;
-    background-size: cover;
-    overflow: hidden;
-} */
-
 .video__item {
     max-width: 583px;
     position: relative;

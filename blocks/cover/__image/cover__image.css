@@ -1,6 +1,4 @@
 .cover__image {
-    /*max-width: 1184px; */
-    /* max-height: 594px; */
     max-width: 100%;
     position: absolute;
     top: 0;
@@ -13,9 +11,9 @@
 
 .cover__image:hover {      
     opacity: .5;
-    -webkit-transition: .2;
-    -o-transition: .2;
-    transition: .2;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
 }
   
 @media screen and (max-width: 980px) {

@@ -8,8 +8,8 @@
    margin-left: 0;
    display: -ms-grid;
    display: grid;
-     -ms-grid-rows: (-webkit-min-content)[3];
-     -ms-grid-rows: (min-content)[3];
+   -ms-grid-rows: (-webkit-min-content);
+   -ms-grid-rows: (min-content);
    grid-template-rows: repeat(3, -webkit-min-content);
    grid-template-rows: repeat(3, min-content);
 }
