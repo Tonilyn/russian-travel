@@ -3,6 +3,10 @@
     margin: auto;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
+    src: url("../../../fonts/Inter-Black.woff") format("woff");
+    src: url("../../../fonts/Inter-Black.woff2") format("woff2");
+    src: url("../../../fonts/Inter-Black.otf") format("otf");
+    src: url("../../../fonts/Inter-Black.ttf") format("ttf");
     font-size: 96px;
     line-height: 93px;
     font-weight: 900;
