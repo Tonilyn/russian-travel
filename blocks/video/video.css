@@ -11,10 +11,22 @@
     max-width: 1185px;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 0 auto;
 }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width : 1250px) {
+  .video {
+      padding: 0 48px 0
+  }
+}
+
+@media screen and (max-width : 767px) {
+  .videp {
+      padding: 0 16px 0;
+  }
+}
+
+/* @media screen and (max-width: 1190px) {
   .video {
       max-width: 95%;
   }
@@ -30,4 +42,4 @@
   .video {
       max-width: 720px;
   }
-}
+} */

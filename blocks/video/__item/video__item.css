@@ -17,7 +17,7 @@
   text-decoration: none;
   color: #ffffff;
   position: relative;
-    display: -webkit-box;
+  display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
@@ -25,7 +25,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     text-decoration: none;
-    background-size: contain;
+    background-size: cover;
     color: #ffffff;
     overflow: hidden;
     align-content: flex-end;
@@ -66,7 +66,7 @@
     .video__item {
         max-width: 482px;
     }
-  }
+  } */
   
   @media screen and (max-width: 1030px) {
     .video__item {
@@ -80,4 +80,4 @@
       max-width: 352px;
       max-height: 200px;
     }
-  } */
+  }
