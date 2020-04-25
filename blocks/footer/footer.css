@@ -1,6 +1,7 @@
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
 @import url(./__copyright/footer__copyright.css);
+@import url(./__links/_position/footer__links_position.css);
 
 .footer {
     background-color: #2A2C2F;
@@ -21,38 +22,13 @@
     -ms-flex-line-pack: center;
         align-content: center;
     margin: 0 auto;
-    padding-bottom: 48px;
+    padding: 0 48px 48px;
     color: #fff;
 } 
 
-@media screen and (max-width : 1185px) {
-    .footer {
-      max-width: 90%;
-    }
-}
-
-@media screen and (max-width : 1024px) {
-    .footer {
-        max-width: 929px;
-    }
-}
-
-@media screen and (max-width : 870px) {
-    .footer {
-        max-width: 90%;
-    }
-}
-
 @media screen and (max-width : 768px) {
     .footer {
-        max-width: 720px;
-        padding-bottom: 24px;
-    }
-}
-
-@media screen and (max-width : 667px) {
-    .footer {
-        max-width: 95%;
+        padding: 0 16px 24px;
     }
 }
 

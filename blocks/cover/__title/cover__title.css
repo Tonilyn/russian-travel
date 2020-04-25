@@ -2,13 +2,12 @@
   font-style: normal;
   font-size: 72px;
   line-height: 78px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Helvetica', sans-serif;
   font-weight: 900;
   text-align: center;
   color: #FFFDFD;
   max-width: 1094.27px;
   margin: 274px auto 0;
-  z-index: 3;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

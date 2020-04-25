@@ -1,7 +1,6 @@
 @import url(./__image/place__image.css);
-@import url(./__paragraph.css/place__paragraph.css);
-@import url(./__paragraph-top/place__paragraph-top.css);
-@import url(./__paragraph-bottom/place__paragraph-bottom.css);
+@import url(./__text/place__text.css);
+@import url(./__paragraph/place__paragraph.css);
 @import url(./__website/place__website.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__url/place__url.css);
@@ -12,9 +11,8 @@
     display: -ms-grid;
     display: grid;
     margin-top: 0;
-    margin-bottom: 4.5rem;
+    margin-bottom: 4.8rem;
     color: #FFFFFF;
-    /* grid-template-columns: minmax(min-content, 1fr) 1fr; */
     -ms-grid-columns: 1fr 40px 1fr;
     grid-template-columns: repeat(2, 1fr);
         -ms-grid-rows: auto 60px auto;
@@ -23,6 +21,10 @@
       "photo content";
     grid-gap: 60px 40px;
 } 
+
+.place:last-of-type {
+  margin-bottom: 0;
+}
 
 @media screen and (max-width: 1026px) {
   .place {
@@ -61,7 +63,7 @@
     grid-template-areas: 
       ". title ."
       "photo photo photo"
-      ". content .";
+      "content content content";
       grid-gap: 0;
   }
 }

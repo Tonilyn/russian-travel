@@ -1,7 +1,4 @@
 .header__logo {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
     -ms-grid-column-align: center;
         justify-self: center;
 }

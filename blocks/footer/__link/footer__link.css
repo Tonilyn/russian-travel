@@ -4,7 +4,6 @@
     line-height: 41px;
     color: #FFFFFF;
     text-decoration: none;
-    margin-right: 18px;
     -webkit-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: opacity 0.5s ease-out;
@@ -14,7 +13,7 @@
     opacity: 0.3;
 }
 
-@media screen and (max-width : 870px) {
+@media screen and (max-width : 958px) {
     .footer__link {
         font-size: 16px;
         line-height: 27px;

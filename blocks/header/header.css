@@ -1,12 +1,13 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang/header__lang.css);
+@import url(./__lang-link/header__lang-link.css);
+@import URL(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
     max-width: 1184px;
-    max-height: 52px;
     background: #2A2C2F;
     margin: 0 auto;
-    padding-top: 30px;
+    padding: 30px 48px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -17,60 +18,10 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    position: relative;
 }
 
-@media screen and (max-width : 1255px) {
+@media screen and (max-width : 767px) {
     .header {
-        max-width: 90%;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width : 1030px) {
-    .header {
-        max-width: 928px;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width : 980px) {
-    .header {
-        max-width: 95%;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width : 771px) {
-    .header {
-        max-width: 720px;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width : 735px) {
-    .header {
-        max-width: 95%;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width : 375px) {
-    .header {
-        max-width: 343px;
-        padding-top: 16px;
-    }
-}
-
-@media screen and (max-width : 360px) {
-    .header {
-        max-width: 94%;
-        padding-top: 16px;
-    }
-}
-
-@media screen and (max-width : 320px) {
-    .header {
-        max-width: 288px;
+        padding: 16px 16px 0;
     }
 }
