@@ -8,7 +8,6 @@
     z-index: 10;
     grid-column: 1/1;
     grid-row: 4;
-    align-self: center;
 }
 
 @media screen and (max-width: 780px) {
