@@ -8,17 +8,10 @@
     margin: 0;
 }
 
-@media screen and (max-width: 400px) {
+ @media screen and (max-width: 400px) {
     .intro__title {
-        max-width: 65%;
         font-size: 32px;
         line-height: 35px;
         text-align: left;
-    }
-}
-
-@media screen and (max-width: 340px) {
-    .intro__title {
-        max-width: 250px;
     }
 }

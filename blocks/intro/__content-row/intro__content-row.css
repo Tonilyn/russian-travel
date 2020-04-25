@@ -1,5 +1,5 @@
 .intro__content-row {
-    margin: auto;
+    max-width: 683px;
     margin-top: 48px;
     font-size: 14px;
     line-height: 24px;
@@ -14,6 +14,12 @@
 @media screen and (min-width: 0px) and (max-width: 931px) {
     .intro__content-row {
         margin-left: 0;
+    }
+}
+
+@media screen and (max-width : 769px) {
+    .intro__content-row {
+        max-width: 100%;
     }
 }
 

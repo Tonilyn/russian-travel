@@ -6,9 +6,9 @@
 
 .intro {
     color: #FFFFFF;
-    max-width: 683px;
-    margin-top: 70px;
-    margin-left: calc((100% - 984px) / 2);
+    max-width: 984px;
+    margin: 70px auto 0;
+    padding: 0 48px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -18,16 +18,9 @@
             flex-direction: column;
 }
 
-@media screen and (max-width: 1028px) {
-    .intro {
-        margin-left: calc((100% - 928px) / 2);
-    }
-}
-
 @media screen and (max-width: 930px) {
     .intro {
-        margin: auto;
-        margin-top: 70px;
+        margin: 70px auto;
         max-width: 94%;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -42,8 +35,9 @@
     }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width : 769px) {
     .intro {
+        padding: 0 16px 0;
         margin-bottom: 97px;
     }
 }

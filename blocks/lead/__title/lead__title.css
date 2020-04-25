@@ -2,26 +2,25 @@
     max-width: 782px;
     margin: auto;
     color: #FFFFFF;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'Helvetica', sans-serif;
     font-size: 96px;
     line-height: 93px;
     font-weight: 900;
     text-align: center;
-}
+} 
 
 @media screen and (max-width : 692px) {
     .lead__title {
-        font-size: 90px;
-        line-height: 90px;
+        max-width: 400px;
+        font-size: 57px;
+        line-height: 54px;
     }
 }
 
-@media (min-width: 0px) and (max-width : 657px){
+@media (min-width: 0px) and (max-width : 487px) {
     .lead__title {
-        /* ( Минимальный размер шрифта / Контрольную точку ) ✕ 100 */
-        /* ( 40px / 375px ) ✕ 100 = 12.5vw */
-        max-width: 54%;
-        font-size: 12.5vw;
-        line-height: 12.3vw;
+        max-width: 320px;
+        font-size: 40px;
+        line-height: 44px;
     }
 }

@@ -3,38 +3,21 @@
   line-height: 12px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  margin: 0;
 }
 
-@media screen and (max-width : 947px) {
+@media screen and (max-width : 770px) {
   .lead__caption {
-    margin-left: 24px;
-  }
-}
-
-@media screen and (max-width : 775px) {
-  .lead__caption {
-    margin-left: 24px;
-  }
-}
-
-@media screen and (max-width : 690px) {
-  .lead__caption {
-    margin-left: 23px;
+    margin-top: 16px;
+    padding-left: 24px;
   }
 }
 
 @media screen and (max-width : 390px) {
   .lead__caption {
-    margin: 8px 18px 64px;
+    margin-top: 8px;
     font-size: 10px;
     line-height: 12px;
     letter-spacing: 0.15em;
-  }
-}
-
-@media screen and (max-width : 390px) {
-  .lead__caption {
-    margin-left: 16px;
-    margin-bottom: 0;
   }
 }

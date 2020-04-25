@@ -2,6 +2,7 @@
     max-width: 583px;
     margin: auto;
     margin-top: 48px;
+    padding: 0 48px 0;
     color: #FFFFFF;
     font-size: 30px;
     line-height: 36px;
@@ -11,27 +12,21 @@
 
 @media screen and (max-width : 692px) {
     .lead__subtitle {
-        margin-top: 48px;
-        margin-bottom: 0;
-        max-width: 90%;
-        font-size: 30px;
-        line-height: 35px;
+        margin-top: 40px;
+        margin-bottom: 31px;
+        padding: 0 16px 0;
+        max-width: 375px;
+        font-size: 23px;
+        line-height: 27px;
     }
 }
 
-@media (min-width: 658px) and (max-width : 691.5px) {
+@media (min-width: 0px) and (max-width : 487px) {
     .lead__subtitle {
-        margin-bottom: 0;
-    }
-}
-
-@media (min-width: 0px) and (max-width : 657px) {
-    .lead__subtitle {
-        /* ( Минимальный размер шрифта / Контрольную точку ) ✕ 100 */
-        /* ( 16px / 320px ) ✕ 100 = vw */
+        max-width: 288px;
         margin-top: 8px;
         margin-bottom: 32px;
-        font-size: 5vw;
-        line-height: 6vw;
+        font-size: 16px;
+        line-height: 23px;
     }
 }
