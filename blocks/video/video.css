@@ -8,7 +8,7 @@
 @import url(./__item/video__item.css);
 
 .video {
-    max-width: 1184px;
+    max-width: 1185px;
     display: flex;
     flex-direction: column;
     margin: auto;
