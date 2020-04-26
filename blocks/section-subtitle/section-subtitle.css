@@ -1,21 +1,17 @@
+@import url(./__comments/section-subtitle__comments.css);
+@import url(./__video/section-subtitle__video.css);
+
 .section-subtitle {
-    max-width: 60%;
     margin: auto;
     padding-top: 3rem;
     color: #FFFFFF;
     font-size: 24px;
     line-height: 2.25rem;
-    font-family: 'Inter';
+    font-family: 'Inter', Helvetica, sans-serif;
     font-weight: 400;
     text-align: center;
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-@media screen and (max-width: 1025px) {
-    .section-subtitle {
-        max-width: 80%
-    }
 }
 
 @media screen and (max-width: 780px) {
@@ -35,24 +31,10 @@
         line-height: 23px;
         margin-bottom: 30px;
     }
-
-    .section-subtitle:last-of-type {
-        max-width: 95%;
-    }
 }
 
 @media screen and (max-width: 405px) {
     .section-subtitle {
         margin-bottom: 24px;
-    }
-
-    .section-subtitle:last-of-type {
-        max-width: 99%;
-    }
-}
-
-@media screen and (max-width: 322px) {
-    .section-subtitle {
-        max-width: 288px;
     }
 }

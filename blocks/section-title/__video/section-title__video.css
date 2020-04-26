@@ -1,0 +1,15 @@
+.section-title__video {
+    max-width: 800px;
+}
+
+@media screen and (max-width : 780px) {
+    .section-title__video {
+        padding: 0 60px 0;
+    }
+}
+
+@media screen and (max-width : 570px) {
+    .section-title__video {
+        padding: 0;
+    }
+}

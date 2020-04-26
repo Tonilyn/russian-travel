@@ -1,5 +1,5 @@
 .video__title {
-    margin: 2% 0 0 30px;
+    margin: 12px 0 0 30px;
     max-width: 322px;
     font-style: normal;
     font-weight: 900;
@@ -18,6 +18,20 @@
         max-width: 288px;
         font-size: 24px;
         line-height: 26px;
-        align-self: end;
+        padding-left: 24px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .video__title {
+        max-width: 352px;
+        align-self: start;
+    }
+}
+
+@media screen and (max-width : 340px) {
+    .video__title {
+        padding-left: 16px;
     }
 }

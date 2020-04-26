@@ -15,7 +15,7 @@
 
 @media screen and (max-width : 925px) {
     .comments__container {
-        margin: 72px auto;
+        margin: 72px auto 0;
         -ms-grid-columns: 382px;
         grid-template-columns: 382px;
         grid-row-gap: 47px;

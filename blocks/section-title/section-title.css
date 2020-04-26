@@ -1,10 +1,12 @@
+@import url(./__comments/section-title__comments.css);
+@import url(./__video/section-title__video.css);
+
 .section-title {
-    max-width: 75%;
     margin: auto;
     color: #FFFFFF;
     font-size: 72px;
     line-height: 4.875rem;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', Helvetica, sans-serif;
     font-weight: 900;
     font-style: normal;
     text-align: center;
@@ -12,21 +14,8 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (max-width: 1025px) {
-    .section-title {
-        max-width: 90%;
-    }
-}
-
-@media screen and (max-width: 916px) {
-    .section-title {
-        max-width: 89.7%;
-    }
-}
-
 @media screen and (max-width: 780px) {
     .section-title {
-        max-width: 75%;
         font-size: 42px;
         line-height: 46px;  
     }
@@ -39,15 +28,8 @@
     }
 }
 
-@media screen and (max-width: 445px) {
-    .section-title:last-of-type {
-        max-width: 98%;
-    }
-}
-
 @media screen and (max-width: 405px) {
     .section-title {
-        max-width: 90%;
         margin: 0 auto;
     }
 }
