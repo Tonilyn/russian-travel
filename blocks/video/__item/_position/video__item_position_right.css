@@ -1,0 +1,22 @@
+.video__item_position_right {
+    background-image: url("../../../../images/video/Image-2.png");
+  }
+
+.video__item_position_right:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background: rgba(0, 0, 0, 0.3);  
+    -webkit-transition: all 0.2s linear;  
+    -o-transition: all 0.2s linear;  
+    transition: all 0.2s linear;
+  }
+  
+.video__item_position_right:hover::before {
+    background: rgba(0, 0, 0, 0.5);
+  }

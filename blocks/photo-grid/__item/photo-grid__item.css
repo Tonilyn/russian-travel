@@ -4,10 +4,3 @@
     -o-object-fit: cover; 
        object-fit: cover;
 }
-
-.photo-grid__item:hover {  
-    -webkit-transition: .2s;  
-    -o-transition: .2s;  
-    transition: .2s;     
-    opacity: .5;
-}

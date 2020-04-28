@@ -4,13 +4,6 @@
        object-fit: cover;
 }
 
-.place__image:hover {  
-    -webkit-transition: .2s;  
-    -o-transition: .2s;  
-    transition: .2s;     
-    opacity: .5;
-}
-
 @media screen and (max-width: 1026px) {
     .place__image {
         max-width: 440px;

@@ -2,7 +2,7 @@
   font-style: normal;
   font-size: 72px;
   line-height: 78px;
-  font-family: 'Inter', 'Helvetica', sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 900;
   text-align: center;
   color: #FFFDFD;
@@ -21,7 +21,7 @@
 @media screen and (max-width: 1030px) {
   .cover__title {
       max-width: 56%;
-      margin: 165px auto 0;
+      margin: 211px auto 0;
   }
 }
 

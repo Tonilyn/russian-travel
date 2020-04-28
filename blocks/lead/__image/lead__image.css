@@ -5,22 +5,9 @@
        object-fit: contain;
 }
 
-.lead__image:hover {  
-    -webkit-transition: .2s;  
-    -o-transition: .2s;  
-    transition: .2s;     
-    opacity: .5;
-}
-
 @media screen and (max-width: 1024px){
     .lead__image {
         margin-top: 65px;
-        max-width: 100%    
-    }
-}
-
-@media screen and (max-width: 769px){
-    .lead__image {
         max-width: 100%    
     }
 }

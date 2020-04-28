@@ -1,6 +1,7 @@
 .intro__content-row {
     max-width: 683px;
-    margin-top: 48px;
+    margin-top: 44px;
+    margin-bottom: 0;
     font-size: 14px;
     line-height: 24px;
 }

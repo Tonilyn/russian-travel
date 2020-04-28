@@ -22,13 +22,6 @@
     .intro {
         margin: 70px auto;
         max-width: 94%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
         -webkit-box-pack: stretch;
             -ms-flex-pack: stretch;
                 justify-content: stretch;

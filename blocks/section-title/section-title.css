@@ -1,12 +1,12 @@
-@import url(./__comments/section-title__comments.css);
-@import url(./__video/section-title__video.css);
+@import url(./_block/section-title_block_comments.css);
+@import url(./_block/section-title_block_video.css);
 
 .section-title {
     margin: auto;
     color: #FFFFFF;
     font-size: 72px;
     line-height: 4.875rem;
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-style: normal;
     text-align: center;

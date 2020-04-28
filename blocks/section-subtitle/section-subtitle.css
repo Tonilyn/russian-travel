@@ -1,13 +1,13 @@
-@import url(./__comments/section-subtitle__comments.css);
-@import url(./__video/section-subtitle__video.css);
+@import url(./_block/section-subtitle_block_video.css);
+@import url(./_block/section-subtitle_block_comments.css);
 
 .section-subtitle {
-    margin: auto;
-    padding-top: 3rem;
+    margin: 0 auto;
+    padding-top: 48px;
     color: #FFFFFF;
     font-size: 24px;
     line-height: 2.25rem;
-    font-family: 'Inter', Helvetica, sans-serif;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 400;
     text-align: center;
     -webkit-font-smoothing: antialiased;
@@ -20,7 +20,6 @@
         margin-bottom: 56px;
         padding-top: 0;
         max-width: 640px;
-        font-size: 24px;
         line-height: 35px;  
     }
 }
