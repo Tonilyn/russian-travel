@@ -8,13 +8,15 @@
 @import url(./__item/_position/video__item_position_right.css);
 @import url(./__subtitle/video__subtitle.css);
 @import url(./__title/video__title.css);
+@import url(../section-title/_block/section-title_block_video.css);
+@import url(../section-subtitle/_block/section-subtitle_block_video.css);
 @import url(./__item/video__item.css);
 
 .video {
     max-width: 1184px;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 116px auto 0;
 }
 
 @media screen and (max-width: 1190px) {
@@ -26,5 +28,6 @@
 @media screen and (max-width: 780px) {
   .video {
       padding: 0 16px 0;
+      margin-top: 110px;
   }
 }

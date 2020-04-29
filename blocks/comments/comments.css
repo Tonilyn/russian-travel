@@ -1,9 +1,11 @@
 @import url(./__container/comments__container.css);
+@import url(../section-title/_block/section-title_block_comments.css);
+@import url(../section-subtitle/_block/section-subtitle_block_comments.css);
 
 .comments {
     max-width: 1184px;
     padding: 0;
-    margin: 128px auto;
+    margin: 103px auto 0;
     color: #FFFFFF;
 }
 
@@ -15,8 +17,14 @@
 
 @media screen and (max-width : 1025px){
     .comments {
-        margin-top: 102px;
+        margin-top: 90px;
         margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width : 780px) {
+    .comments {
+        margin-top: 103px;
     }
 }
 

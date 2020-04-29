@@ -8,18 +8,10 @@
 @media screen and (max-width : 925px) {
     .comment__author {
         text-align: center;
-        margin-top: 16px;
-        margin-bottom: 24px;
+        margin-top: 14px;
+        margin-bottom: 16px;
         -ms-grid-row: 2;
         -ms-grid-row-span: 1;
         grid-row: 2 / 3;
     }
 }
-
-/* @media screen and (max-width : 321px) {
-    .comment__author {
-        -ms-grid-row: 2;
-        -ms-grid-row-span: 1;
-        grid-row: 2 / 3;
-    }
-} */

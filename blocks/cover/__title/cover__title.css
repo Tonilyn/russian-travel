@@ -32,11 +32,12 @@
 } 
 
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 780px) {
   .cover__title {
-    font-size: 4rem;
-    line-height: 4.3rem;
+    font-size: 72px;
+    line-height: 78px;
     max-width: 70%;
+    margin-top: 165px;
   }
 }
 

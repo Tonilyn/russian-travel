@@ -1,5 +1,5 @@
 .comments__container {
-    margin-top: 72px;
+    margin-top: 56px;
     margin-bottom: 0;
     display: -ms-grid;
     display: grid;
@@ -12,6 +12,12 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }    
+
+@media screen and (max-width: 1024px) {
+    .comments__container {
+        margin-top: 56px;
+    }
+}
 
 @media screen and (max-width : 925px) {
     .comments__container {

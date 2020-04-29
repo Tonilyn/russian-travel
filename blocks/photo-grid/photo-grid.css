@@ -1,9 +1,8 @@
 @import url(./__item/photo-grid__item.css);
 
 .photo-grid {
-  /* max-width: 1184px; */
   max-width: 1184px;
-  margin: 102px auto;
+  margin: 85px auto;
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr)); 
@@ -26,6 +25,7 @@
 @media screen and (max-width: 1030px) {
   .photo-grid {
     max-width: 928px;
+    margin-top: 96px;
   }
 }
 

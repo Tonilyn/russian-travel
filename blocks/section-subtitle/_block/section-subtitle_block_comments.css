@@ -1,3 +1,16 @@
 .section-subtitle_block_comments {
     max-width: 640px;
 }
+
+@media screen and (max-width: 1025px) {
+    .section-subtitle_block_comments {
+        padding-top: 22px;
+    }
+}
+
+@media screen and (max-width : 780px) {
+    .section-subtitle_block_comments {
+        margin-top: 18px;
+        padding-top: 8px;
+    }
+}

@@ -8,7 +8,7 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     max-width: 984px;
-    margin: 102px auto;
+    margin: 102px auto 0;
     padding: 0 48px 0;
     color: #FFFFFF;
 }

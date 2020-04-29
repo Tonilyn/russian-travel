@@ -3,7 +3,7 @@
 
 .cover {
     max-width: 1184px;
-    margin: 102px auto 160px;
+    margin: 92px auto 145px;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -43,15 +43,16 @@
 @media screen and (max-width: 1030px) {
     .cover {
         max-width: 100%;
-        margin: 100px auto 102px;
+        margin: 104px auto 155px;
     }
 }
 
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 780px) {
     .cover {
         background-image: url("../../images/cover768.jpg");
         background-position: center;
         background-repeat: no-repeat;
+        margin-bottom: 98px;
     }
 }
 

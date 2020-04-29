@@ -1,3 +1,17 @@
 .section-subtitle_block_video {
     max-width: 640px;
+    padding-top: 36px;
+}
+
+@media screen and (max-width: 1030px) {
+    .section-subtitle_block_video {
+        padding-top: 28px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .section-subtitle_block_video {
+        padding-top: 6px;
+        margin-bottom: 50px;
+    }
 }

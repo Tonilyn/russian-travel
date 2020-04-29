@@ -1,9 +1,6 @@
-@import url(./_block/section-subtitle_block_video.css);
-@import url(./_block/section-subtitle_block_comments.css);
-
 .section-subtitle {
     margin: 0 auto;
-    padding-top: 48px;
+    padding-top: 39px;
     color: #FFFFFF;
     font-size: 24px;
     line-height: 2.25rem;
@@ -12,6 +9,12 @@
     text-align: center;
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 1024px) {
+    .section-subtitle {
+        padding-top: 39px;
+    }
 }
 
 @media screen and (max-width: 780px) {
