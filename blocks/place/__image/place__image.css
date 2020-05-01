@@ -24,3 +24,9 @@
            object-fit: contain;
     }
 }
+
+@media screen and (max-width: 385px) {
+    .place__image {
+        margin-bottom: 20px;
+    }
+}

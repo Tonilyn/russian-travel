@@ -14,3 +14,9 @@
         padding-top: 8px;
     }
 }
+
+@media screen and (max-width: 385px) {
+    .section-subtitle_block_comments {
+        margin-top: 11px;
+    }
+}

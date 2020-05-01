@@ -60,11 +60,13 @@
 @media screen and (max-width: 400px) {
   .cover__title {
     max-width: 66%;
+    margin: 95px auto 0;
   }
 }
 
 @media screen and (max-width: 343px) {
   .cover__title {
     max-width: 100%;
+    margin: 66px auto 0;
   }
 }

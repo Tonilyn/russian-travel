@@ -31,3 +31,9 @@
       margin-top: 110px;
   }
 }
+
+@media screen and (max-width: 385px) {
+  .video {
+    margin-top: 64px;
+  }
+}

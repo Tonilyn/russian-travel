@@ -11,6 +11,26 @@
     grid-template-rows: 1fr min-content 1fr min-content;
     border-radius: 1%;
     z-index: 1;
+    overflow: hidden;
+}
+
+.video__item:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.3);  
+  -webkit-transition: all 0.2s linear;  
+  -o-transition: all 0.2s linear;  
+  transition: all 0.2s linear;
+}
+
+.video__item:hover::before {
+  background: rgba(0, 0, 0, 0.5); 
 }
   
 @media screen and (max-width: 1030px) {

@@ -44,8 +44,20 @@
 }
  
 
-@media screen and (max-width : 479px){
+@media screen and (max-width : 479px) {
     .comments {
         padding: 0 16px 0;
+    }
+}
+
+@media screen and (max-width : 385px) {
+    .comments {
+        margin-top: 93px;
+    }
+}   
+
+@media screen and (max-width : 335px) {
+    .comments {
+        margin-top: 73px; 
     }
 }

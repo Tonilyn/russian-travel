@@ -47,3 +47,9 @@
     max-width: 94%;
   }
 }
+
+@media screen and (max-width: 385px) {
+  .photo-grid {
+    grid-gap: 8px;
+  }
+}
